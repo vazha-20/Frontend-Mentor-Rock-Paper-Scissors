@@ -1,0 +1,52 @@
+/* Basic styles for the Rock-Paper-Scissors game */
+
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and font for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the game container */
+.game-container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+/* Style buttons for rock, paper, scissors */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Add styles for the result display */
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
